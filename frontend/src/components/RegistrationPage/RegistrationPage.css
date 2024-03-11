@@ -1,0 +1,107 @@
+/* RegistrationPage.css */
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('trais.jpg');
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.registration-form-container {
+  width: 450px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  text-align: left;
+}
+
+.registration-heading {
+  text-align: center; /* Center the heading */
+}
+
+.registration-form-field {
+  margin-bottom: 20px;
+}
+
+.registration-form-field label {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.registration-form-field input[type="text"],
+.registration-form-field input[type="email"],
+.registration-form-field input[type="password"],
+.registration-form-field input[type="tel"],
+.registration-form-field input[type="number"],
+.registration-form-field input[type="radio"],
+.registration-form-field textarea {
+  width: calc(60% - 10px);
+  padding: 6px; /* Reduce height of input boxes */
+  margin-right: 10px; /* Leave space between input boxes */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.gender-options {
+  display: flex;
+}
+
+.gender-options label {
+  display: flex;
+  align-items: center; /* Align text vertically with the radio buttons */
+  margin-right: 20px; /* Add space between radio buttons */
+}
+
+.gender-options label:last-child {
+  margin-right: 0; /* Remove margin from the last label to prevent extra space */
+}
+
+.gender-options label input[type="radio"] {
+  margin-right: 5px; /* Add space between radio button and text */
+}
+
+.registration-form-field textarea {
+  height: 80px; /* Reduce height of textarea */
+}
+
+.registration-form-field button.register-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Green color for register button */
+  color: #fff;
+  cursor: pointer;
+}
+
+.registration-form-field button.register-button:hover {
+  background-color: #218838; /* Darker green color on hover */
+}
+
+.registration-form-field button.register-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.terms-conditions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.terms-conditions span {
+  margin-left: 5px;
+}
+
+
+

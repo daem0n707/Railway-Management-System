@@ -1,0 +1,35 @@
+.availability-container {
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .availability-heading {
+    margin-bottom: 20px; /* Add margin below the title */
+    font-size: 24px; /* Adjust font size */
+    color: #333; /* Set text color */
+  }
+  
+  .availability-list .card {
+    width: 400px; /* Adjust the width of each card as needed */
+    margin-bottom: 20px; /* Add margin to create spacing between cards */
+    border: 2px solid #ccc; /* Add border to each card */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    overflow: hidden; /* Hide any overflow content */
+    margin-left: center;
+  }
+  
+  .card-gradient-1 {
+    background: linear-gradient(to right, #add8e6, #87ceeb); /* Gradient color scheme */
+  }
+  
+  .card-gradient-2 {
+    background: linear-gradient(to right, #e0ffff, #afeeee); /* Gradient color scheme */
+  }
+  
+  .card-gradient-3 {
+    background: linear-gradient(to right, #f0f8ff, #b0e0e6); /* Gradient color scheme */
+  }
+  

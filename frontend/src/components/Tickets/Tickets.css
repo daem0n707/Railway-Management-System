@@ -1,0 +1,61 @@
+.home-heading {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+.home-form-container {
+  background-color: #ffffff;
+  padding: 70px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.home-form-field {
+  flex: 0 0 calc(50% - 40px); /* Adjust the width as needed */
+}
+
+.home-form-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.home-form-select {
+  width: 130px; /* Make the select fill its container */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.home-form-datepicker {
+  width: 100%; /* Make the datepicker fill its container */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px; /* Add margin bottom */
+}
+
+.home-form-search-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%; /* Make the button fill its container */
+}
